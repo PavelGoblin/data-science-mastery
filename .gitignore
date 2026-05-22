@@ -54,12 +54,10 @@ venv.bak/
 Thumbs.db
 
 # Data files (too large for git)
-*.csv
 *.zip
 *.gz
 *.tar
 *.rar
-!datasets/*.md
 
 # ML model files
 *.h5

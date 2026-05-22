@@ -1,37 +1,95 @@
-# Data Science Complete Tutorial
+# Data Science Mastery
 
-A comprehensive data science learning repository with hands-on Jupyter notebooks covering NumPy, Pandas, Machine Learning, and more.
+A hands-on data science learning repository with topic-based organization, practical Jupyter notebooks, and real-world projects.
 
-Online Learning - [https://www.edyoda.com/program/data-scientist-program](https://www.edyoda.com/program/data-scientist-program)
+## Directory Structure
 
-## Machine Learning Git Codebook
+```
+01_python_fundamentals/      # NumPy, Pandas, Data Visualization
+02_data_handling/            # Preprocessing, comprehensive Pandas guide
+03_supervised_learning/      # Linear models, Trees, SVM, KNN, Naive Bayes
+04_unsupervised_learning/    # Clustering, Anomaly detection, Association rules
+05_advanced_ml/              # Pipelines, Feature selection, Ensembles, Imbalanced data
+06_model_interpretability/   # SHAP, Permutation importance, PDP (unique)
+07_production_ml/            # Model deployment, API serving, Docker (unique)
+08_projects/                 # 50+ real-world case studies and projects
+```
 
-**Lesson 1 :** [Introduction to NumPy](1.%20Introduction%20to%20NumPy.ipynb)
-**Lesson 2 :** [Pandas for Machine Learning](2.%20Pandas%20for%20Machine%20Learning.ipynb)
-**Lesson 3 :** [Plotting with Python](3.%20Plotting%20with%20Python.ipynb)
-**Lesson 4 :** [Linear Models for Classification & Regression](4.%20Linear%20Models%20for%20Classification%20%26%20Regression.ipynb)
-**Lesson 5 :** [Data Preprocessing](5.%20Data%20Preprocessing.ipynb)
-**Lesson 6 :** [Decision Trees](6.%20Decision%20Trees.ipynb)
-**Lesson 7 :** [Naive Bayes](7.%20Naive%20Bayes.ipynb)
-**Lesson 8 :** [Pipelines & FeatureUnions](8.%20Pipelines%20%26%20FeatureUnions.ipynb)
-**Lesson 9 :** [Model Selection & Evaluation](9.%20Model%20Selection%20%26%20Evaluation.ipynb)
-**Lesson 10 :** [Feature Selection Techniques](10.%20Feature%20Selection%20Techniques.ipynb)
-**Lesson 11 :** [Nearest Neighbors](11.%20Nearest%20Neighbors.ipynb)
-**Lesson 12 :** [Clustering Techniques](12.%20Clustering%20Techniques.ipynb)
-**Lesson 13 :** [Anomaly Detection](13.%20Anomaly%20Detection.ipynb)
-**Lesson 14 :** [Support Vector Machines](14.%20Support%20Vector%20Machines.ipynb)
-**Lesson 15 :** [Dealing with Imbalanced Classes](15.%20Dealing%20with%20Imbalanced%20Classes.ipynb)
-**Lesson 16 :** [Ensemble Methods](16.%20Ensemble%20Methods.ipynb)
+## Python Fundamentals
 
-## Case Study of Classic ML Problems
+| Notebook | Description |
+|----------|-------------|
+| [NumPy Crash Course](01_python_fundamentals/numpy_crash_course.ipynb) | Arrays, broadcasting, vectorization, linear algebra |
+| [Pandas Essentials](01_python_fundamentals/pandas_essentials.ipynb) | DataFrames, I/O, filtering, aggregation basics |
+| [Data Visualization](01_python_fundamentals/data_visualization.ipynb) | Matplotlib, Seaborn, Plotly fundamentals |
 
-**Case 1 :** [Titanic Survival Prediction](Case%20Study%20-%20Titanic%20Survival%20Prediction.ipynb)
-**Case 2 :** [House Price Prediction](Case%20Study%20-%20House%20Price%20Prediction.ipynb)
-**Case 3 :** [Customer Churn Prediction](Case%20Study%20-%20Customer%20Churn.ipynb)
-**Case 4 :** [Fraud Detection](Case%20Study%20-%20Fraud%20Detection.ipynb)
-**Case 5 :** [Cancer Prediction](Case%20Study%20-%20Cancer%20Prediction.ipynb)
-**Case 6 :** [Sentiment Analysis](Case%20Study%20-%20Sentiment%20Analysis.ipynb)
+## Data Handling
 
-## About Us
+| Notebook | Description |
+|----------|-------------|
+| [Pandas Comprehensive Guide](02_data_handling/pandas_comprehensive_guide.ipynb) | Deep-dive into merge, reshape, groupby, time series, text, missing data |
+| [Data Preprocessing](02_data_handling/data_preprocessing_techniques.ipynb) | Scaling, encoding, outlier handling, feature engineering |
 
-This repository provides free, quality data science education through practical code examples and real-world case studies.
+## Supervised Learning
+
+| Notebook | Description |
+|----------|-------------|
+| [Linear Models](03_supervised_learning/linear_models.ipynb) | Linear/Logistic regression, regularization |
+| [Decision Trees](03_supervised_learning/decision_trees.ipynb) | Classification & regression trees, pruning |
+| [Naive Bayes](03_supervised_learning/naive_bayes_classifier.ipynb) | Gaussian, Multinomial, Bernoulli classifiers |
+| [Nearest Neighbors](03_supervised_learning/nearest_neighbors.ipynb) | KNN for classification & regression |
+| [Support Vector Machines](03_supervised_learning/support_vector_machines.ipynb) | SVM, kernels, margin optimization |
+
+## Unsupervised Learning
+
+| Notebook | Description |
+|----------|-------------|
+| [Clustering Algorithms](04_unsupervised_learning/clustering_algorithms.ipynb) | K-Means, DBSCAN, Hierarchical, evaluation |
+| [Outlier & Anomaly Detection](04_unsupervised_learning/outlier_and_anomaly_detection.ipynb) | Isolation Forest, LOF, statistical methods |
+| [Association Rules](04_unsupervised_learning/association_rules_mining.ipynb) | Apriori, FP-Growth, market basket analysis |
+
+## Advanced ML Techniques
+
+| Notebook | Description |
+|----------|-------------|
+| [Pipelines & Transformers](05_advanced_ml/pipelines_and_transformers.ipynb) | ColumnTransformer, FeatureUnion, custom transformers |
+| [Feature Selection Methods](05_advanced_ml/feature_selection_methods.ipynb) | Filter, wrapper, embedded, RFE, mutual information |
+| [Model Selection & Evaluation](05_advanced_ml/model_selection_and_evaluation.ipynb) | Cross-validation, hyperparameter tuning, metrics |
+| [Ensemble Learning](05_advanced_ml/ensemble_learning.ipynb) | Random Forest, Gradient Boosting, Stacking, Voting |
+| [Handling Class Imbalance](05_advanced_ml/handling_class_imbalance.ipynb) | SMOTE, undersampling, cost-sensitive learning |
+
+## Model Interpretability *(unique content)*
+
+| Notebook | Description |
+|----------|-------------|
+| [Interpretability with SHAP](06_model_interpretability/model_interpretability_shap.ipynb) | Feature importance, partial dependence, SHAP values |
+
+## Production ML *(unique content)*
+
+| Notebook | Description |
+|----------|-------------|
+| [Model Deployment Guide](07_production_ml/model_deployment_guide.ipynb) | Serialization, FastAPI, Docker, monitoring |
+
+## Projects & Case Studies
+
+All 50+ projects in `08_projects/` covering:
+- Classification, regression, clustering, NLP, computer vision
+- Fraud detection, churn prediction, sentiment analysis, image recognition
+- Hyperparameter tuning, pipeline design, feature engineering
+
+## Getting Started
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Generate synthetic datasets
+python scripts/prepare_datasets.py
+
+# Launch Jupyter
+jupyter notebook
+```
+
+## About
+
+This repository provides practical, hands-on data science education through well-organized tutorials and real-world projects.
